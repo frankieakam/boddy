@@ -52,7 +52,4 @@ Calculator Screen: Displays the input field and results dynamically.
 # Contribution
 Feel free to fork the repository, create issues, ask for collaboration on projects or submit pull requests to enhance the project.
 
-# License
-This project is open-source and available under the MIT License.
-
 # Enjoy calculating with precision using the BODMAS Calculator! 🚀
