@@ -1,8 +1,8 @@
-## BODMAS Calculator
+## BODDY
 
 # Overview
-The BODMAS Calculator is a simple web-based application that evaluates mathematical expressions 
-following the BODMAS (Brackets, Orders, Division, Multiplication, Addition, Subtraction) rule. 
+Boddy is a simple web-based application that evaluates mathematical expressions using the BODMAS (Brackets, Orders, Division, Multiplication, Addition, Subtraction) rule.
+Its name 'boddy' represents a playful take on the structure and logic of BODMAS.
 It features an interactive user interface where users can input their name, perform calculations, and receive personalized results.
 
 # Features
@@ -52,4 +52,4 @@ Calculator Screen: Displays the input field and results dynamically.
 # Contribution
 Feel free to fork the repository, create issues, ask for collaboration on projects or submit pull requests to enhance the project.
 
-# Enjoy calculating with precision using the BODMAS Calculator! 🚀
+# Enjoy calculating with precision using the BODDY - your math buddy! 🚀
