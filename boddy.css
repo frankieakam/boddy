@@ -116,7 +116,7 @@ input, button {
 @media (max-width: 600px) {
     input, button {
         padding: 4px;
-        margin: 5px 0;
+        margin: 5px 50px;
         font-size: 8px;
     }
 }
@@ -124,8 +124,8 @@ input, button {
 /* medium screen */
 @media (max-width: 800px) {
     input, button {
-        padding: 8px;
-        margin: 5px 0;
+        padding: 4px;
+        margin: 5px 50px;
         font-size: 8px;
     }
 }
@@ -240,4 +240,8 @@ button {
 button:hover {
     background-color: #000;
     color: #fff;
+}
+
+.calculator-screen button {
+    width: 100px;
 }
