@@ -8,6 +8,42 @@ body {
     background-color: #000;
 }
 
+/* small screen */
+@media (max-width: 600px) {
+    body {
+        height: 85vh;
+        margin: 20px;
+        font-size: 10px;
+    }
+}
+
+/* medium screen */
+@media (max-width: 800px) {
+    body {
+        height: 85vh;
+        margin: 20px;
+        font-size: 10px;
+    }
+}
+
+/* tablets */
+@media (min-width: 1024px) {
+    body {
+        height: 100vh;
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
+/* large screen */
+@media (min-width: 1280px) {
+    body {
+        height: 100vh;
+        margin: 0;
+        font-size: 16px;
+    }
+}
+
 #welcome-screen, #calculator-screen {
     text-align: center;
     padding: 20px;
@@ -18,15 +54,135 @@ body {
     background-color: #fff;
 }
 
+/* small screen */
+@media (max-width: 600px) {
+    #welcome-screen, #calculator-screen {
+        text-align: center;
+        padding: 10px;
+        border: 5px solid #000;
+        border-radius: 15px;
+        border-style: double;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+}
+
+/* medium screen */
+@media (max-width: 800px) {
+    #welcome-screen, #calculator-screen {
+        text-align: center;
+        padding: 10px;
+        border: 5px solid #000;
+        border-radius: 15px;
+        border-style: double;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+}
+
+/* tablets */
+@media (min-width: 1024px) {
+    #welcome-screen, #calculator-screen {
+        text-align: center;
+        padding: 20px;
+        border: 10px solid #000;
+        border-radius: 15px;
+        border-style: double;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+}
+
+/* large screen */
+@media (min-width: 1280px) {
+    #welcome-screen, #calculator-screen {
+        text-align: center;
+        padding: 20px;
+        border: 10px solid #000;
+        border-radius: 15px;
+        border-style: double;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #fff;
+    }
+}
+
 input, button {
-    padding: 8px;
-    margin: 10px 0;
-    font-size: 16px;
+        padding: 8px;
+        margin: 10px 0;
+        font-size: 16px;
+}
+
+/* small screen */
+@media (max-width: 600px) {
+    input, button {
+        padding: 4px;
+        margin: 5px 0;
+        font-size: 8px;
+    }
+}
+
+/* medium screen */
+@media (max-width: 800px) {
+    input, button {
+        padding: 8px;
+        margin: 5px 0;
+        font-size: 8px;
+    }
+}
+
+/* tablets */
+@media (min-width: 1024px) {
+    input, button {
+        padding: 8px;
+        margin: 10px 0;
+        font-size: 16px;
+    }
+}
+
+/* large screen */
+@media (min-width: 1280px) {
+    input, button {
+        padding: 8px;
+        margin: 10px 0;
+        font-size: 16px;
+    }
 }
 
 input {
     border-radius: 8px;
     border: 2px solid #000;
+}
+
+/* small screen */
+@media (max-width: 600px) {
+    input {
+        border-radius: 8px;
+        border: 1px solid #000;
+    }
+}
+
+/* medium screen */
+@media (max-width: 800px) {
+    input {
+        border-radius: 8px;
+        border: 1px solid #000;
+    }
+}
+
+/* tablets */
+@media (min-width: 1024px) {
+    input {
+        border-radius: 8px;
+        border: 2px solid #000; 
+    }
+}
+
+/* large screen */
+@media (min-width: 1280px) {
+    input {
+        border-radius: 8px;
+        border: 2px solid #000;
+    }
 }
 
 button {
@@ -35,6 +191,50 @@ button {
     border: 2px solid #000;
     background-color: #fff;
     color: #000;
+}
+
+/* small screen */
+@media (max-width: 600px) {
+    button {
+        cursor: pointer;
+        border-radius: 8px;
+        border: 1px solid #000;
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+/* medium screen */
+@media (max-width: 800px) {
+    button {
+        cursor: pointer;
+        border-radius: 8px;
+        border: 1px solid #000;
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+/* tablets */
+@media (min-width: 1024px) {
+    button {
+        cursor: pointer;
+        border-radius: 8px;
+        border: 2px solid #000;
+        background-color: #fff;
+        color: #000;
+    }
+}
+
+/* large screen */
+@media (min-width: 1280px) {
+    button {
+        cursor: pointer;
+        border-radius: 8px;
+        border: 2px solid #000;
+        background-color: #fff;
+        color: #000;
+    }
 }
 
 button:hover {
