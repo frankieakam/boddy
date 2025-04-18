@@ -1,7 +1,7 @@
 ## BODDY
 
 # Overview
-Boddy is a simple web-based application that evaluates mathematical expressions using the BODMAS (Brackets, Orders, Division, Multiplication, Addition, Subtraction) rule.
+Boddy is a simple web-based demo application that evaluates mathematical expressions using the BODMAS (Brackets, Orders, Division, Multiplication, Addition, Subtraction) rule.
 Its name 'boddy' represents a playful take on the structure and logic of BODMAS.
 It features an interactive user interface where users can input their name, perform calculations, and receive personalized results.
 
@@ -36,20 +36,5 @@ HTML5: For structuring the user interface.
 CSS3: External stylesheet for styling the components.
 
 JavaScript: For dynamic interactivity and evaluation of mathematical expressions.
-
-# Future Enhancements
-Add support for more complex mathematical functions (e.g., square roots, trigonometry).
-
-Include a history feature to save and view past calculations.
-
-Add input validation to prevent invalid mathematical expressions.
-
-# Screenshots
-Welcome Screen: Prompts the user to enter their name and start the calculator.
-
-Calculator Screen: Displays the input field and results dynamically.
-
-# Contribution
-Feel free to fork the repository, create issues, ask for collaboration on projects or submit pull requests to enhance the project.
 
 # Enjoy calculating with precision using the BODDY - your math buddy! 🚀
